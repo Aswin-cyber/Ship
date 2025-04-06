@@ -1,0 +1,6 @@
+FROM openjdk:17-slim
+WORKDIR /app
+# Copy the same built fat JAR file.
+COPY target/proxy-solution-1.0-SNAPSHOT.jar app.jar
+EXPOSE 9090
+CMD ["java", "-cp", "app.jar", "com.example.proxy.OffshoreProxy"]

@@ -1,0 +1,5 @@
+com\royalcaribs\proxy\PersistentConnection.class
+com\royalcaribs\proxy\RequestHandler.class
+com\royalcaribs\proxy\ShipProxy.class
+com\royalcaribs\proxy\OffshoreProxy.class
+com\royalcaribs\proxy\ProxyHttpHandler.class
